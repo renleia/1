@@ -23,11 +23,4 @@ video/mp4 {
 text-align:center;
 }
 
-p.one {
-  border-style: solid;
-  border-color: red;
-}
 
-p.ones {
-border-bottom: solid #ff0000;
-}
