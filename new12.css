@@ -8,7 +8,7 @@ text-align:center;
 }
 
 p{
-color:verdana;
+color:yellow;
 text-size: 20px;
 }
 
@@ -27,3 +27,12 @@ text-align:center;
 td {
     color: yellow;
 }
+
+a:hover {
+      color: rgb(27, 46, 219);
+    }
+
+a:active {
+      color: tomato;
+    }
+
