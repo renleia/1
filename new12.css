@@ -35,4 +35,7 @@ a:hover {
 a:active {
       color: tomato;
     }
+input:focus {
+background-color: yellow;
+}
 
