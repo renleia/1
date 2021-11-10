@@ -1,5 +1,5 @@
 body {
-background-color:hsla(202, 66%, 37%, 0.74);
+background-color:hsl(192, 83%, 31%);
 }
 
 h1{
@@ -37,10 +37,5 @@ a:active {
     }
 input:focus {
 background-color: yellow;
-}
-
-div{
-color:yellow;
-text-size: 20px;
 }
 
