@@ -11,12 +11,6 @@
     <title>无聊的网站</title>
     <link rel="stylesheet" type="text/css" href="new12.css">
     <style media "screen and {min-width:512px} and {max-width:1024px}">
-        li {
-            display: inline;
-
-
-        }
-
         .div1 {
             width: 170px;
             height: 220px;
@@ -28,6 +22,8 @@
             margin: 4px;
 
         }
+
+
 
         p {
             margin-top: 0px;
@@ -42,30 +38,56 @@
         }
 
         .box {
-            width: 752px;
-            height: 500px;
-            margin: 0 auto;
+
+
+            clear: both;
+            margin: 10px auto;
             background-color: rgb(146, 181, 201);
 
         }
 
+        .box2 {
+
+            height: 50px;
+            margin: 0 auto;
+            background-color: slategray;
+        }
+
         body {
             text-align: center;
+        }
+
+        .a1 {
+            float: left;
+            width: 100px;
+            height: 50px;
+            line-height: 50px;
+
+        }
+
+        .box2 .a1:hover {
+
+            background-color: yellow;
+            color: black;
+        }
+
+        .clear {
+            clear: both;
         }
     </style>
 </head>
 
 <body>
 
-    <ul>
+    <div class="box2">
 
-        <li><a href="index.html">首页</a></li>
-        <li><a href="chilldmusic.html">音乐</a></li>
-        <li><a href="chilldbook.html">书籍</a></li>
-        <li><a href="chilldpdf.html">PDF文件</a></li>
-        <li><a href="modern art 150years.html">现代艺术150年（图集）</a></li>
+        <a href="index.html" class="a1">首页</a>
+        <a href="chilldmusic.html" class="a1">音乐</a>
+        <a href="chilldbook.html" class="a1">书籍</a>
+        <a href="chilldpdf.html" class="a1">PDF文件</a>
+        <a href="modern art 150years.html" class="a1">现代艺术150年（图集）</a>
 
-    </ul>
+    </div>
 
     <div class="box">
         <div class="div1">
@@ -105,7 +127,7 @@
             <p class="ones" style="font-size: 12px;">NEON GENESIS EVANGELION 10TH ANNIVERSARY - DECADE</p>
 
         </div>
-
+        <div class="clear"></div>
     </div>
 
 </body>
